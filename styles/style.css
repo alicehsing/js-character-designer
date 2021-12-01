@@ -91,7 +91,10 @@ footer {
 
   }
 
-
+img{
+    width: 200px;
+    height: 200px;
+}
 main {
     display: flex;
     background-color: white;
