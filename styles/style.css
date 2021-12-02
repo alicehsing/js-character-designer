@@ -111,9 +111,9 @@ main {
     flex-direction: column;
 }
 
-.left {
+/* .left {
     overflow: scroll;
-}
+} */
 
 .left, .right {
     width: 100%;
