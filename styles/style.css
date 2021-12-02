@@ -91,7 +91,10 @@ footer {
 
   }
 
-
+img{
+    width: 200px;
+    height: 200px;
+}
 main {
     display: flex;
     background-color: white;
@@ -108,9 +111,9 @@ main {
     flex-direction: column;
 }
 
-.left {
+/* .left {
     overflow: scroll;
-}
+} */
 
 .left, .right {
     width: 100%;
@@ -134,8 +137,14 @@ main {
 
 }
 
-.catchphrase {
+#catchphrases {
     font-size: 2rem;
     font-family: cursive;
     text-align: center;
+    color: rgb(170, 96, 139);
+}
+
+#catchphrase-button {
+    cursor: pointer;
+    background-color: plum;
 }
