@@ -137,8 +137,14 @@ main {
 
 }
 
-.catchphrase {
+#catchphrases {
     font-size: 2rem;
     font-family: cursive;
     text-align: center;
+    color: rgb(170, 96, 139);
+}
+
+#catchphrase-button {
+    cursor: pointer;
+    background-color: plum;
 }
